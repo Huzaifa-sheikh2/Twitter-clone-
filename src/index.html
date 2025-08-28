@@ -13,7 +13,6 @@
   <body class="bg-black text-white">
     <!-- Main Container -->
     <div class="flex max-w-6xl mx-auto min-h-screen">
-      
       <!-- Sidebar (left) -->
       <div class="w-64 p-4 ml-10 border-r border-gray-700">
         <div class="logo mb-4">
@@ -27,43 +26,70 @@
             ></path>
           </svg>
         </div>
-        <div class="sidebar ">
-          <ul class="flex flex-col gap-2 text-sm ">
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer">
-              <span class="material-symbols-outlined ">home</span> Home
+        <div class="sidebar">
+          <ul class="flex flex-col gap-2 text-sm">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined">home</span> Home
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">explore</span> Explore
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-20 hover:cursor-pointer">
-              <span class="material-symbols-outlined">notifications</span> Notifications
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-20 hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined">notifications</span>
+              Notifications
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-23 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-23 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">mail</span> Messages
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-28 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-28 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">bolt</span> Grok
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-29 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-29 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">list</span> Lists
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-23 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-23 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">bookmark</span> Bookmarks
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-19 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-19 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">group</span> Communities
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-26 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-26 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">star</span> Premium
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-26 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-26 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">person</span> Profile
             </li>
-            <li class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer">
+            <li
+              class="flex items-center gap-2 hover:bg-gray-700 px-4 py-1 rounded-full mr-27 hover:cursor-pointer"
+            >
               <span class="material-symbols-outlined">more_horiz</span> More
             </li>
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm  py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Default</button>
-
+            <button
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Default
+            </button>
           </ul>
         </div>
       </div>
@@ -74,11 +100,28 @@
       </div>
 
       <!-- Right section -->
-      <div class="w-80 p-4">
-        <h2 class="text-lg font-bold mb-4">Trends / Extra</h2>
-        <p class="text-gray-400">This is the right sidebar.</p>
-      </div>
+       <div class="third">
+
+         <div class="search w-80 p-3 border-l border-gray-700">
+           <input
+           type="text"
+           placeholder="Search "
+           class="w-20 rounded-full bg-gray-800 text-white placeholder:pl-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+           />
+          </div>
+          
+          <div class="subscribe bg-gray-800 rounded-xl m-2.5 ">
+            <h1 class="ml-2">Subscribe to premium</h1>
+            <p class="ml-2">Subscribe to unlock new features and it eligible </p>
+            <button class="success"></button>
+          </div>
+
+
+
+          <div class="whats bg-gray-800 m-3 p-3 rounded-xl h-90">
+            <h1 class="text-left font-bold">Whats happening</h1>
+          </div>
+        </div>
     </div>
-   
   </body>
 </html>

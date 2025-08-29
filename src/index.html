@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+    <!-- Font Awesome 6 (free CDN) -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+
   </head>
   <body class="bg-black text-white">
     <!-- Main Container -->
@@ -95,25 +101,54 @@
       </div>
 
       <!-- Middle feed -->
-      <div class="second w-full border-x border-gray-700 ">
-        <div class="top flex mr-5 ">
+      <div class="second w-full border-x border-gray-700">
+        <div class="top flex mr-5">
+          <div
+            class="left w-1/2 text-center text-sm text-gray-300 my-3 font-bold hover:bg-gray-900 rounded-4xl active:underline"
+          >
+            For You
+          </div>
+          <div
+            class="right w-1/2 text-center text-sm text-gray-300 my-3 font-bold hover:bg-gray-900 rounded-4xl active:underline"
+          >
+            Following
+          </div>
+          <div class="settings text-center">
+            <span class="my-3 text-sm text-gray-300 material-symbols-outlined">
+              settings
+            </span>
+          </div>
+        </div>
+        <div class="w-full bg-gray-800 h-[1px]"></div>
 
-          <div class="left w-1/2 text-center text-sm text-gray-300 my-3 font-bold  hover:bg-gray-900 rounded-4xl active:underline">For You</div>
-          <div class="right  w-1/2 text-center text-sm text-gray-300 my-3 font-bold hover:bg-gray-900 rounded-4xl active:underline">Following </div>
-          <div class="settings text-center "><span class="my-3 text-sm text-gray-300 material-symbols-outlined">
-settings
-</span></div>
-</div>
-<div class="w-full bg-gray-800 h-[1px]"></div>
-
-
-  <div class="foryou flex gap-4 mx-5">
-    <div class="image">
-     <img class="" src="" alt="loading">
-    </div>
-    <input  type="text" placeholder="What's happening?" class="w-full bg-black border-b border-gray-700 p-3 focus:outline-none focus:ring-2 focus:ring-blue-300"/>
-  </div>
-</div>
+        <div class="foryou flex gap-4 mx-3">
+          <div class="image">
+            <img
+            class="w-10 rounded-full my-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZirTv3YUaHSe-VVIQzwXUHXxb8mnJ-krbg&s"
+            alt="loading"
+            />
+          </div>
+          <input
+          type="text"
+          placeholder="What's happening?"
+          
+          class="w-full mx-2 text-xs bg-black focus:outline-none focus:ring-blue-300"
+          
+          />
+        </div>
+        <div class="flex align-center items-center gap-2 mx-5 ">
+         <i class="fa-solid fa-earth-asia text-blue-700 text-xs"></i>
+          <span class="text-blue-600 text-xs">Everyone can reply </span>
+        </div>
+        <hr class=" border-gray-700 my-3 " />
+        <div class="icons mx-5 mb-3 flex gap-2 text-xs">
+          <i class="fa-solid fa-image text-blue-700"></i>
+          <i class="fa-solid fa-location-crosshairs text-blue-700"></i>
+          <i class="fa-regular fa-calendar-days text-blue-700"></i>
+          <i class="fa-regular fa-location-dot text-blue-700"></i>
+        </div>
+      </div>
       <!-- Right section -->
       <div class="third">
         <div class="search w-90 p-3 border-l">
@@ -148,46 +183,78 @@ settings
 
         <div class="subscribe bg-gray-900 rounded-xl m-3 w-50 h-60 space-y-2">
           <h1 class="ml-2 text-sm font-extrabold">Who to follow</h1>
-          <div class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full">
-            <img class="w-10 pl-2 my-1" src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="Loading">
+          <div
+            class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full"
+          >
+            <img
+              class="w-10 pl-2 my-1"
+              src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
+              alt="Loading"
+            />
             <div class="info flex flex-col">
-
-              <h1 class="text-xs mx-1 text-gray-300 hover:underline">Uzair ahmed</h1>
+              <h1 class="text-xs mx-1 text-gray-300 hover:underline">
+                Uzair ahmed
+              </h1>
               <h1 class="text-xs mx-1 text-gray-700">10K followers</h1>
             </div>
             <div class="follow flex ml-6">
-
-              <button class=" bg-white text-black text-xs my-2 rounded-full w-13 h-6 ">Follow</button>
+              <button
+                class="bg-white text-black text-xs my-2 rounded-full w-13 h-6"
+              >
+                Follow
+              </button>
             </div>
           </div>
 
-          <div class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full">
-            <img class="w-10 pl-2 my-1" src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="Loading">
+          <div
+            class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full"
+          >
+            <img
+              class="w-10 pl-2 my-1"
+              src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
+              alt="Loading"
+            />
             <div class="info flex flex-col">
-
-              <h1 class="text-xs mx-1 text-gray-300 hover:underline">Uzair ahmed</h1>
+              <h1 class="text-xs mx-1 text-gray-300 hover:underline">
+                Uzair ahmed
+              </h1>
               <h1 class="text-xs mx-1 text-gray-700">10K followers</h1>
             </div>
             <div class="follow flex ml-6">
-
-              <button class=" bg-white text-black text-xs my-2 rounded-full w-13 h-6 ">Follow</button>
+              <button
+                class="bg-white text-black text-xs my-2 rounded-full w-13 h-6"
+              >
+                Follow
+              </button>
             </div>
           </div>
 
-          <div class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full">
-            <img class="w-10 pl-2 my-1" src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="Loading">
+          <div
+            class="person1 flex hover:bg-gray-800 hover:cursor-pointer rounded-full"
+          >
+            <img
+              class="w-10 pl-2 my-1"
+              src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
+              alt="Loading"
+            />
             <div class="info flex flex-col">
-
-              <h1 class="text-xs mx-1 text-gray-300 hover:underline">Uzair ahmed</h1>
+              <h1 class="text-xs mx-1 text-gray-300 hover:underline">
+                Uzair ahmed
+              </h1>
               <h1 class="text-xs mx-1 text-gray-700">10K followers</h1>
             </div>
             <div class="follow flex ml-6">
-
-              <button class=" bg-white text-black text-xs my-2 rounded-full w-13 h-6 ">Follow</button>
+              <button
+                class="bg-white text-black text-xs my-2 rounded-full w-13 h-6"
+              >
+                Follow
+              </button>
             </div>
           </div>
 
-          <p class="text-blue-800 text-xs ml-2 hover:cursor-pointer">Show more</p>
+          <p class="text-blue-800 text-xs ml-2 hover:cursor-pointer">
+            Show more
+          </p>
         </div>
       </div>
     </div>
